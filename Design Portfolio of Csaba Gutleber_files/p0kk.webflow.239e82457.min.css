@@ -2626,9 +2626,9 @@ body {
 
 .home-hero-p {
     color: var(--primary);
-    max-width: 680px;
-    font-size: 16px;
-    line-height: 28px
+    max-width: 800px;
+    font-size: 18px;
+    line-height: 32px
 }
 
 .home-hl {
@@ -2636,9 +2636,13 @@ body {
     max-width: 640px;
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 24px;
+    font-size: 40px;
     font-weight: 800;
-    line-height: 32px
+    line-height: 48px
+}
+
+.home-sub {
+    color: var(--secondary);
 }
 
 .text-span {
@@ -2659,6 +2663,12 @@ body {
     display: flex;
 }
 
+.home-links {
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    display: flex
+}
+
 .link-2 {
     color: var(--primary)
 }
@@ -2674,7 +2684,6 @@ body {
 
 .works-desc {
     color: var(--primary);
-    max-width: 560px;
     font-size: 16px;
     line-height: 24px
 }
